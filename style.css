@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #292929;
+    font-size: 16px;
+    line-height: 140%
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: content-box;
+    height: 100vh;
+    padding: 50px;
+    background-image: url(img/Headphones-image-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.header-style {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -1.5px;
+
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: transform 500ms;
+    display: block;
+    flex-direction: column;
+    box-sizing: content-box;
+    height: 100vh;
+    padding: 50px;
+    background-color: #E8EFF9;
+
+}
+.menu:target{
+    transform: translateX(0%);
+}
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+
+}
+.header-top {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    letter
+
+}
+
+.main {
+    padding: 120px;
+    background-color: #ffff;
+}
+
+
+.recommended-style {
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #292929;
+}
+
+.categories-style {
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1.5px;
+}
+
+
+.bose-style {
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
+
+.recommended-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.products{
+    flex-basis: 324px;
+
+}
+.product-photo {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.recommended {
+    margin-bottom: 120px;
+}
+
+.product-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.product-categorie {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.product-price {
+    margin: 0;
+    font-weight: bold;
+}
+.category {
+    margin-bottom: 64px;
+}
+.categories{
+    margin: 0 auto;
+    max-width: 1020px;
+    margin-bottom: 120px;
+}
+.cat-photos {
+    display: flex;
+    gap: 3%;
+    margin-bottom: 16px;
+}
+
+.ph-wide {
+    width: 65%;
+
+}
+.ph-side {
+    width: 32%;
+
+}
+
+.how-to-buy {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    max-width: 1020px;
+    margin-bottom: 120px;
+}
+
+.how-to-buy-style {
+    flex-basis: 50%;
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
+
+.how-to-buy__content {
+    flex-basis: 50%;
+}
+
+.htb__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.hwb__description {
+    font-style: italic;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    height: 460px;
+    background-image: url(img/Rectangle\ 27.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
